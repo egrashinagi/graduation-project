@@ -276,66 +276,77 @@ body {
     opacity: 0.5;
 }
 
-
-
-
-
-/*!*Mobile version*!*/
-
-/*.logo {*/
-    /*display: block;*/
-    /*margin: 0 auto;*/
-    /*!*text-align: center;*!*/
+/*.wrapper-cursor-p  {*/
+    /*opacity: 0;*/
+    /*font-size: 30px;*/
+    /*font-weight: 700;*/
+    /*font-family: 'Segoe UI';*/
+    /*line-height: 300px;*/
+    /*text-align: center;*/
+    /*color: #fff;*/
 /*}*/
 
-/*.menu {*/
-    /*display: block;*/
-    /*margin: 0 auto;*/
-    /*padding: 0;*/
-    /*text-align: left;*/
-    /*!*float: left;*!*/
-    /*!*margin-right: 50px;*!*/
-    /*!*padding: 10px;*!*/
+/*.wrapper:hover .wrapper-cursor-p{*/
+    /*opacity: 1;*/
+    /*background: rgba(0,0,0,0.5);*/
+    /*cursor: pointer;*/
 /*}*/
 
-/*.menu__item {*/
-    /*display: block;*/
-/*}*/
 
-/*.slider {*/
-    /*!*padding: 10px;*!*/
-/*}*/
+/*----Mobile version----*/
 
-/*.content__text {*/
-    /*padding: 5px;*/
-/*}*/
+@media  screen and (max-width: 768px){
 
-/*.content__title {*/
-    /*padding: 0 5px 0 5px;*/
-/*}*/
+    .logo {
+        display: block;
+        margin: 0 auto;
+    }
 
-/*.services__list-item {*/
-    /*display: block;*/
-    /*width: 100%;*/
-   /*!*margin: 10px;*!*/
-    /*padding: 10px;*/
-/*}*/
+    .menu {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        text-align: left;
+    }
 
-/*.team__list-item {*/
-    /*display: inline-block;*/
+    .menu__item {
+        display: block;
+    }
 
-/*}*/
+    .content__text {
+        padding: 5px;
+    }
 
-/*.team__list-description {*/
-    /*width: 90%;*/
-    /*padding: 10px;*/
-    /*margin: 5px;*/
-/*}*/
+    .content__title {
+        padding: 0 5px 0 5px;
+    }
 
-/*.services__list-item {*/
-    /*padding: 0 2px 0 2px;*/
-/*}*/
+    .services__list-item {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
 
+    .team__list-item {
+        display: inline-block;
+
+    }
+
+    .team__list-description {
+        width: 90%;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .services__list-item {
+        padding: 0 2px 0 2px;
+    }
+
+    .left, .right {
+        display: none;
+    }
+
+}
 
 
 
